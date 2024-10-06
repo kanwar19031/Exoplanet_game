@@ -3,7 +3,7 @@ from groq import Groq
 import requests
 
 # Groq API setup (with your API key)
-Key = "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"
+Key = "Key"
 client = Groq(api_key=Key)
 
 # Set Streamlit page configuration

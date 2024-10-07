@@ -1,7 +1,7 @@
 import streamlit as st
 from about_us import about_us
 from gallery import gallery
-#from chatbot import chatbot
+from chatbot import chatbot
 from Exo_Chronicles import Exo
 from reference_links import reference_links
 from our_team import our_team  # Import the new page
@@ -24,8 +24,8 @@ elif page == "Gallery":
     gallery()
 elif page == "Exo Chronicles":
     Exo()
-#elif page == "Exoplanet Chatbot":
-    #chatbot()
+elif page == "Exoplanet Chatbot":
+    chatbot()
 elif page == "Reference Links":
     reference_links()
 elif page == "Our Team":

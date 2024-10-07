@@ -2,20 +2,9 @@ import streamlit as st
 from groq import Groq
 import requests
 
-import os
-from dotenv import load_dotenv
-from groq import Groq  # Assuming Groq is the name of the module you are using for the API
-
-# Load environment variables from the .env file
-load_dotenv()
-
-# Retrieve the API key from environment variables
-api_key = os.getenv("GROQ_API_KEY")
-
-# Initialize the Groq client with the API key
-client = Groq(api_key=api_key)
-
-# Now, you can use the `client` to make API calls
+# Groq API setup (with your API key)
+Key = "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"
+client = Groq(api_key=Key)
 
 # Reference Links Array
 reference_links = [
